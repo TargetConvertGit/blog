@@ -13,6 +13,6 @@ jobs:
       uses: reuixiy/hugo-deploy@v1
       env:
         DEPLOY_REPO: TargetConvertGit/TargetConvertGit.github.io
-        DEPLOY_BRANCH: main
+        DEPLOY_BRANCH: master
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         TZ: Asia/Taipei
